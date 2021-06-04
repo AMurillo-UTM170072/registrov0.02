@@ -18,11 +18,12 @@ class Controlador:
         self.raiz.title("Registro de pascua Juvenil Parroquia de Nuestra señora de guadalupe")
         self.raiz.iconbitmap("C:/Users/"+getuser()+"/Desktop/registrov0.01recursos/Imagenes/cxto.ico")
         self.raiz.geometry("1000x600")
-        self.raiz.deiconify()
+        #self.raiz.deiconify()
         self.raiz.mainloop()
 
     def run1(self):
         self.raiz.title("Registro de pascua Juvenil Parroquia de Nuestra señora de guadalupe")
-        self.raiz.iconbitmap('C:/Users/aurelio/Desktop/registrov0.01/recursos/Imagenes/cxto.ico')
+        self.raiz.iconbitmap('C:/Users/'+getuser()+'/Desktop/registrov0.01/recursos/Imagenes/cxto.ico')
         self.raiz.geometry("1000x600")
+        self.raiz.deiconify()
         self.raiz.mainloop()

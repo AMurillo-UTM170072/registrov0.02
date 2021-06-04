@@ -25,5 +25,5 @@ class ventana:
         self.botonV.pack(side="right")
         self.fondo.pack()
         self.frame.pack()
-    def registrar():
+    
         
